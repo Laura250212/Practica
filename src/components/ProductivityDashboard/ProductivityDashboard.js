@@ -165,7 +165,7 @@ const ProductivityDashboard = (props) => {
           />
           <input
             type="text"
-            placeholder="Descripción de la tarea"
+            placeholder="Placeholder modificado por Laura"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="input-description"
