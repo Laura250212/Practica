@@ -165,8 +165,12 @@ const ProductivityDashboard = (props) => {
           />
           <input
             type="text"
+<<<<<<< HEAD
         
             placeholder="modifico Laura desde release x2"
+=======
+            placeholder="Cambio de placeholder desde la rama raul"
+>>>>>>> raul
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="input-description"
