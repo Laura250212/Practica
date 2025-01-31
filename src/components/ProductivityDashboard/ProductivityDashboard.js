@@ -165,7 +165,7 @@ const ProductivityDashboard = (props) => {
           />
           <input
             type="text"
-            placeholder="Descripción de la tarea"
+            placeholder="Cambio de placeholder desde la rama raul"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="input-description"
